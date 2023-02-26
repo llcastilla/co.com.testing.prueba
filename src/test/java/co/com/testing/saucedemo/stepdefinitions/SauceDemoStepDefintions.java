@@ -25,18 +25,18 @@ public class SauceDemoStepDefintions {
     }
 
 
-    @Given("^than Brandon wants to learn automation at the academy Choucair$")
-    public void thanBrandonWantsToLearnAutomationAtTheAcademyChoucair(List<SauceDemoData> sauceDemoData) throws Exception {
+    @Given("^que Brandon quiere aprender automatización con saucedemo$")
+    public void queBrandonQuiereAprenderAutomatizaciónConSaucedemo(List<SauceDemoData> sauceDemoData) throws Exception {
         OnStage.theActorCalled("Brandon").wasAbleTo(OpenUp.thePage(), (Login.OnThePage(sauceDemoData.get(0).getStrUser(), sauceDemoData.get(0).getStrPassword())));
     }
 
-    @When("^he searchs for the course on the Choucair Academy plataform$")
-    public void heSearchsForTheCourseMetodologíaBancolombiaOnTheChoucairAcademyPlataform(List<SauceDemoData> sauceDemoData) throws Exception {
+    @When("^busca el producto que quiere comprar$")
+    public void buscaElProductoQueQuiereComprar(List<SauceDemoData> sauceDemoData) throws Exception {
         OnStage.theActorInTheSpotlight().attemptsTo(Select.the(sauceDemoData.get(0).getStrFirstName(), sauceDemoData.get(0).getStrLastName(), sauceDemoData.get(0).getStrPostalCode()));
     }
 
-    @Then("^He finds the course called$")
-    public void heFindsTheCourseCalledMetodologíaBancolombia(List<SauceDemoData> sauceDemoData) throws Exception {
+    @Then("^finaliza la compra$")
+    public void finalizaLaCompra(List<SauceDemoData> sauceDemoData) throws Exception {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(sauceDemoData.get(0).getStrProduct())));
     }
 

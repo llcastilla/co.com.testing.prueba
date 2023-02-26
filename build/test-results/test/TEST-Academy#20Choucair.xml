@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-26T19:42:40" hostname="LLCASTILLA" time="5.653">
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-26T21:24:34" hostname="LLCASTILLA" time="5.461">
   <properties/>
-  <testcase name="Search for a automation course" classname="Academy Choucair" time="5.653"/>
+  <testcase name="Search for a automation course" classname="Academy Choucair" time="5.461"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[feb 26, 2023 2:42:41 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[feb 26, 2023 4:24:34 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 23121
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 14881
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677440562.340][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-feb 26, 2023 2:42:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677446675.807][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+feb 26, 2023 4:24:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
