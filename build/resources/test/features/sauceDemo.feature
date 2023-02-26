@@ -4,12 +4,12 @@ Feature: Academy Choucair
 
   @scenario1
   Scenario: Search for a automation course
-    Given than Brandon wants to learn automation at the academy Choucair
+    Given que Brandon quiere aprender automatización con saucedemo
       | strUser       | strPassword  |
       | standard_user | secret_sauce |
-    When  he searchs for the course on the Choucair Academy plataform
+    When  busca el producto que quiere comprar
       | strFirstName | strLastName | strPostalCode |
       | leonardo     | castilla    | 200005        |
-    Then  He finds the course called
+    Then  finaliza la compra
       | strProduct               |
       | THANK YOU FOR YOUR ORDER |
