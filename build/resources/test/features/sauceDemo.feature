@@ -1,7 +1,7 @@
 @stories
-Feature: Academy Choucair
-  As a user, I want to learn how to automate in screamplay at the Choucair Academy with the automation course
+Feature: Sauce Demo
 
+  Como usuario quiero aprender a automatizar en screamplay en la pagina Sauce Demo
   @scenario1
   Scenario: Search for a automation course
     Given que Brandon quiere aprender automatización con saucedemo

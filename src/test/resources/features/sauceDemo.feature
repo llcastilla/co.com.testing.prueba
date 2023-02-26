@@ -3,7 +3,7 @@ Feature: Sauce Demo
 
   Como usuario quiero aprender a automatizar en screamplay en la pagina Sauce Demo
   @scenario1
-  Scenario: Search for a automation course
+  Scenario: Buscar un producto para comprar
     Given que Brandon quiere aprender automatización con saucedemo
       | strUser       | strPassword  |
       | standard_user | secret_sauce |
